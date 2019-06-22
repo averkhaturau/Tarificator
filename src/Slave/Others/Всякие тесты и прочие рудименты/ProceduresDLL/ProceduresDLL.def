@@ -1,0 +1,21 @@
+SECTIONS
+	.shared Read Write Shared
+EXPORTS
+	KeyboardProc	
+	MouseProc
+	GetMouseHook
+	SetMouseHook
+	GetKeyboardHook
+	SetKeyboardHook
+	SetLockingCursor
+	GetLockingCursor
+	SetuiState
+	GetuiState
+	SetCallbackThreadID
+	SetTaskbarWnd
+	GetTaskbarWnd
+
+	SetKeyboardLocked
+	GetKeyboardLocked
+	SetMouseLocked
+	GetMouseLocked

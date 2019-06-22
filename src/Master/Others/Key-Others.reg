@@ -1,0 +1,26 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\_LX\Others]
+"TimerPeriod"=dword:000003e8
+"LogFileName"="d:\\trfc\\Tarificator.Log"
+"ClubName"="Orion 108"
+"SaveToPath"="d:\\trfc\\"
+"TimeHoldHistoryInMinutes"=dword:0000000a
+"CashLogName"="d:\\trfc\\cashdesk.log"
+"CashSum"=dword:00000064
+"PermissionTakeOff"=dword:00000064
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\_LX\Others\MaxIntervalLength]
+"Hour"=dword:0000000c
+"Minute"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\_LX\Others\WorkingInterval]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\_LX\Others\WorkingInterval\Finish]
+"Hour"=dword:00000000
+"Minute"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\_LX\Others\WorkingInterval\Start]
+"Hour"=dword:00000000
+"Minute"=dword:00000000
+

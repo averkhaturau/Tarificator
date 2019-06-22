@@ -1,0 +1,9 @@
+SECTIONS
+	.SharedData Read Write Shared
+EXPORTS
+	LogonEventHandler
+	LogoffEventHandler
+	LockEventHandler
+	UnLockEventHandler
+	ReconnectEventHandler
+	DisconnectEventHandler

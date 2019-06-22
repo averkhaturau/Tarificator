@@ -1,0 +1,38 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Slave Service\Parameters]
+"LogFileName"="d:\\Temp\\Tarificator\\Slave\\Logs\\Error Log.txt"
+"PortToListen"=dword:0000473e
+"MasterPort"=dword:0000473f
+"TimerPeriod"=dword:000003e8
+"ConnectTimeOut"=dword:00002710
+"ReceiveTimeOut"=dword:00002710
+"NoMasterAnswerPeriod"=dword:000493e0
+"CheckStatePeriod"=dword:0000ea60
+"ConnectRetriesPeriod"=dword:00007530
+"OpenConnectionTimeOut"=dword:00007530
+"MasterAddress_"=dword:7f000001
+"KeyLogFileName"=""
+"Icons_Shurick"=""
+"SpecialIcons_Shurick"=""
+"Icons_Ol"="d:\\Temp\\Tarificator\\Slave\\Icons\\Ol\\Usual"
+"SpecialIcons_Ol"="d:\\Temp\\Tarificator\\Slave\\Icons\\Ol\\Special"
+"OnlyOneApplication_Shurick"=dword:00000001
+"PreliminaryIcons_Ol"="d:\\Temp\\Tarificator\\Slave\\Icons\\Ol\\Preliminary"
+"PreliminaryIcons_Shurick"=""
+"RunnerName"="Z:\\My programs\\Tarification\\Slave\\Runner\\Release\\Runner.exe"
+"LateWarn"=dword:0000ea60
+"EarlyWarn"=dword:000493e0
+"MasterAddress__"=dword:c0a80081
+"MasterAddress"=dword:c0a80081
+"EarlyWarnName"="d:\\Temp\\Tarificator\\Slave\\Звуки\\5minutes.wav"
+"LateWarnName"="d:\\Temp\\Tarificator\\Slave\\Звуки\\1minute.wav"
+"FinishedName"="d:\\Temp\\Tarificator\\Slave\\Звуки\\TimeIsOver.wav"
+"DesktopLogFileName"="d:\\Temp\\Tarificator\\Slave\\Logs\\DesktopLog.txt"
+"DesktopExecutablePath"="Z:\\My programs\\Tarification\\Slave\\Desktop\\Release\\Desktop.exe"
+"SuperUserNamesNumber"=dword:00000001
+"SuperUserName00"="Shurick"
+"OnlyOneApplication_Ol"=dword:00000001
+"NeedToCloseSysTray_Ol"=dword:00000000
+"NeedToCloseSysTray_Shurick"=dword:00000000
+

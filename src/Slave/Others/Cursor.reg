@@ -1,0 +1,31 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Slave Service\Exchange]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Slave Service\Parameters]
+"LogFileName"="C:\\Program Files\\Slave\\Logs\\Error Log.txt"
+"PortToListen"=dword:0000473e
+"MasterPort"=dword:0000473f
+"TimerPeriod"=dword:000003e8
+"ConnectTimeOut"=dword:00002710
+"ReceiveTimeOut"=dword:00002710
+"NoMasterAnswerPeriod"=dword:000493e0
+"CheckStatePeriod"=dword:0000ea60
+"ConnectRetriesPeriod"=dword:00007530
+"OpenConnectionTimeOut"=dword:00007530
+"KeyLogFileName"=""
+"RunnerName"="C:\\Program Files\\Slave\\Runner.exe"
+"LateWarn"=dword:0000ea60
+"EarlyWarn"=dword:000493e0
+"MasterAddress"=dword:a9fe9efa
+"EarlyWarnName"="d:\\Temp\\Tarificator\\Slave\\Звуки\\5 minutes.wav"
+"LateWarnName"="d:\\Temp\\Tarificator\\Slave\\Звуки\\1 minute.wav"
+"FinishedName"="d:\\Temp\\Tarificator\\Slave\\Звуки\\Time over.wav"
+"DesktopLogFileName"="C:\\Program Files\\Slave\\Log\\Desktop Log.txt"
+"DesktopExecutablePath"="C:\\Program Files\\Slave\\Desktop.exe"
+"SuperUserNamesNumber"=dword:00000001
+"SuperUserName00"="Admin"
+"Icons_Gamer"="C:\\TestShortcuts\\Usual"
+"OnlyOneApplication_Gamer"=dword:00000001
+"PreliminaryIcons_Gamer"="C:\\TestShortcuts\\Preliminary"
+"SpecialIcons_Gamer"="C:\\TestShortcuts\\Special"

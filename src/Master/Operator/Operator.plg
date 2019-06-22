@@ -1,0 +1,233 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Operator - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"..\Interface\Release/Operator.res" /d "NDEBUG" /d "_AFXDLL" "Z:\My programs\Tarification\Master\Operator\Operator.rc"" 
+Creating temporary file "C:\DOCUME~1\Shurick\LOCALS~1\Temp\RSP2AF.tmp" with contents
+[
+/nologo /MD /w /W0 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"..\Interface\Release/Operator.pch" /Yu"stdafx.h" /Fo"..\Interface\Release/" /Fd"..\Interface\Release/" /FD /c 
+"Z:\My programs\Tarification\Master\Operator\OperatorDlg.cpp"
+"Z:\My programs\Tarification\Master\Operator\Operators.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\Saving\DayHistory.cpp"
+"Z:\My programs\Tarification\Slave\Slave\RegistryClass.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\MasterManager\MasterManager.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\MasterManager\MasterManagerAttribute.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\AppHistoryInterval.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\ColoredInterval.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\IntervalAddition.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\TarifInterval.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\TimeInterval.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\TimeStorage.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\BusyIntervalHist.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\BusyIntervalsCollection.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\ClubState.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\MashineData.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\MashinesCollection.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\Operator.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\ClubSettings\OperatorsCollection.cpp"
+"Z:\My programs\Tarification\Slave\Slave\AdditionalRecievedData.cpp"
+"Z:\My programs\Tarification\Slave\Slave\AdditionalRecievedDatumCollection.cpp"
+"Z:\My programs\Tarification\Slave\Slave\AsyncExchanger.cpp"
+"Z:\My programs\Tarification\Slave\Slave\Commander.cpp"
+"Z:\My programs\Tarification\Slave\Slave\Incoming.cpp"
+"Z:\My programs\Tarification\Slave\Slave\Listener.cpp"
+"Z:\My programs\Tarification\Slave\Slave\Outcoming.cpp"
+"Z:\My programs\Tarification\Slave\Slave\Receiver.cpp"
+"Z:\My programs\Tarification\Slave\Slave\ReceiverParamsCollection.cpp"
+"Z:\My programs\Tarification\Slave\Slave\Sender.cpp"
+"Z:\My programs\Tarification\Slave\Slave\TCP_IP_Class.cpp"
+"Z:\My programs\Tarification\Slave\Slave\TCP_IP_Listener.cpp"
+"Z:\My programs\Tarification\Slave\Slave\TCP_IP_Receiver.cpp"
+"Z:\My programs\Tarification\Slave\Slave\TCP_IP_Sender.cpp"
+"Z:\My programs\Tarification\Slave\Slave\TCP_IP_SocketHolder.cpp"
+"Z:\My programs\Tarification\Slave\Slave\ErrorsLogger.cpp"
+"Z:\My programs\Tarification\Slave\Slave\Logger.cpp"
+"Z:\My programs\Tarification\Slave\Slave\LoggerWithFullFileName.cpp"
+"Z:\My programs\Tarification\Slave\Slave\ManagersCollection.cpp"
+"Z:\My programs\Tarification\Slave\Slave\MultiThreadManager.cpp"
+"Z:\My programs\Tarification\Slave\Slave\NamesCollection.cpp"
+"Z:\My programs\Tarification\Slave\Slave\ReceiveManagersCollection.cpp"
+"Z:\My programs\Tarification\Slave\Slave\ReceiveMulthiThreadManager.cpp"
+"Z:\My programs\Tarification\Slave\Slave\RegistryFileManager.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\FileUpdateManager.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\UpdateManager.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\CashLogger.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\FinantialHistoryLogger.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\Saving\MasterRegistryStorer.cpp"
+"Z:\My programs\Tarification\Slave\Slave\RegistryDataReader.cpp"
+"Z:\My programs\Tarification\Slave\Slave\RegistryDataWriter.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\Communicator\MasterCommunicator.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\Communicator\MasterTCP_IP_Communicator.cpp"
+"Z:\My programs\Tarification\Slave\Slave\TimeOutManager.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\WindowsVersionDefiner.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\Cryptography\Encryptor.cpp"
+"Z:\My programs\Tarification\Master\DataStructures\Cryptography\Hasher.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Shurick\LOCALS~1\Temp\RSP2AF.tmp" 
+Creating temporary file "C:\DOCUME~1\Shurick\LOCALS~1\Temp\RSP2B0.tmp" with contents
+[
+/nologo /MD /w /W0 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"..\Interface\Release/Operator.pch" /Yc"stdafx.h" /Fo"..\Interface\Release/" /Fd"..\Interface\Release/" /FD /c 
+"Z:\My programs\Tarification\Master\Operator\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Shurick\LOCALS~1\Temp\RSP2B0.tmp" 
+Creating temporary file "C:\DOCUME~1\Shurick\LOCALS~1\Temp\RSP2B1.tmp" with contents
+[
+/nologo /MD /w /W0 /GX /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fo"..\Interface\Release/" /Fd"..\Interface\Release/" /FD /c 
+"Z:\My programs\Tarification\Master\Logon\Collect.c"
+"Z:\My programs\Tarification\Master\Logon\Comm.c"
+"Z:\My programs\Tarification\Master\Logon\Security.c"
+"Z:\My programs\Tarification\Master\Logon\SSPLogon.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Shurick\LOCALS~1\Temp\RSP2B1.tmp" 
+Creating temporary file "C:\DOCUME~1\Shurick\LOCALS~1\Temp\RSP2B2.tmp" with contents
+[
+SHLWAPI.LIB ws2_32.lib /nologo /subsystem:windows /incremental:no /pdb:"..\Interface\Release/Operator.pdb" /machine:I386 /out:"Release/Operator.exe" 
+"\My programs\Tarification\Master\Interface\Release\OperatorDlg.obj"
+"\My programs\Tarification\Master\Interface\Release\Operators.obj"
+"\My programs\Tarification\Master\Interface\Release\DayHistory.obj"
+"\My programs\Tarification\Master\Interface\Release\RegistryClass.obj"
+"\My programs\Tarification\Master\Interface\Release\StdAfx.obj"
+"\My programs\Tarification\Master\Interface\Release\MasterManager.obj"
+"\My programs\Tarification\Master\Interface\Release\MasterManagerAttribute.obj"
+"\My programs\Tarification\Master\Interface\Release\AppHistoryInterval.obj"
+"\My programs\Tarification\Master\Interface\Release\ColoredInterval.obj"
+"\My programs\Tarification\Master\Interface\Release\IntervalAddition.obj"
+"\My programs\Tarification\Master\Interface\Release\TarifInterval.obj"
+"\My programs\Tarification\Master\Interface\Release\TimeInterval.obj"
+"\My programs\Tarification\Master\Interface\Release\TimeStorage.obj"
+"\My programs\Tarification\Master\Interface\Release\BusyIntervalHist.obj"
+"\My programs\Tarification\Master\Interface\Release\BusyIntervalsCollection.obj"
+"\My programs\Tarification\Master\Interface\Release\ClubState.obj"
+"\My programs\Tarification\Master\Interface\Release\MashineData.obj"
+"\My programs\Tarification\Master\Interface\Release\MashinesCollection.obj"
+"\My programs\Tarification\Master\Interface\Release\Operator.obj"
+"\My programs\Tarification\Master\Interface\Release\OperatorsCollection.obj"
+"\My programs\Tarification\Master\Interface\Release\AdditionalRecievedData.obj"
+"\My programs\Tarification\Master\Interface\Release\AdditionalRecievedDatumCollection.obj"
+"\My programs\Tarification\Master\Interface\Release\AsyncExchanger.obj"
+"\My programs\Tarification\Master\Interface\Release\Commander.obj"
+"\My programs\Tarification\Master\Interface\Release\Incoming.obj"
+"\My programs\Tarification\Master\Interface\Release\Listener.obj"
+"\My programs\Tarification\Master\Interface\Release\Outcoming.obj"
+"\My programs\Tarification\Master\Interface\Release\Receiver.obj"
+"\My programs\Tarification\Master\Interface\Release\ReceiverParamsCollection.obj"
+"\My programs\Tarification\Master\Interface\Release\Sender.obj"
+"\My programs\Tarification\Master\Interface\Release\TCP_IP_Class.obj"
+"\My programs\Tarification\Master\Interface\Release\TCP_IP_Listener.obj"
+"\My programs\Tarification\Master\Interface\Release\TCP_IP_Receiver.obj"
+"\My programs\Tarification\Master\Interface\Release\TCP_IP_Sender.obj"
+"\My programs\Tarification\Master\Interface\Release\TCP_IP_SocketHolder.obj"
+"\My programs\Tarification\Master\Interface\Release\ErrorsLogger.obj"
+"\My programs\Tarification\Master\Interface\Release\Logger.obj"
+"\My programs\Tarification\Master\Interface\Release\LoggerWithFullFileName.obj"
+"\My programs\Tarification\Master\Interface\Release\ManagersCollection.obj"
+"\My programs\Tarification\Master\Interface\Release\MultiThreadManager.obj"
+"\My programs\Tarification\Master\Interface\Release\NamesCollection.obj"
+"\My programs\Tarification\Master\Interface\Release\ReceiveManagersCollection.obj"
+"\My programs\Tarification\Master\Interface\Release\ReceiveMulthiThreadManager.obj"
+"\My programs\Tarification\Master\Interface\Release\RegistryFileManager.obj"
+"\My programs\Tarification\Master\Interface\Release\FileUpdateManager.obj"
+"\My programs\Tarification\Master\Interface\Release\UpdateManager.obj"
+"\My programs\Tarification\Master\Interface\Release\CashLogger.obj"
+"\My programs\Tarification\Master\Interface\Release\FinantialHistoryLogger.obj"
+"\My programs\Tarification\Master\Interface\Release\MasterRegistryStorer.obj"
+"\My programs\Tarification\Master\Interface\Release\RegistryDataReader.obj"
+"\My programs\Tarification\Master\Interface\Release\RegistryDataWriter.obj"
+"\My programs\Tarification\Master\Interface\Release\MasterCommunicator.obj"
+"\My programs\Tarification\Master\Interface\Release\MasterTCP_IP_Communicator.obj"
+"\My programs\Tarification\Master\Interface\Release\TimeOutManager.obj"
+"\My programs\Tarification\Master\Interface\Release\WindowsVersionDefiner.obj"
+"\My programs\Tarification\Master\Interface\Release\Encryptor.obj"
+"\My programs\Tarification\Master\Interface\Release\Hasher.obj"
+"\My programs\Tarification\Master\Interface\Release\collect.obj"
+"\My programs\Tarification\Master\Interface\Release\comm.obj"
+"\My programs\Tarification\Master\Interface\Release\security.obj"
+"\My programs\Tarification\Master\Interface\Release\SSPLogon.obj"
+"\My programs\Tarification\Master\Interface\Release\Operator.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\Shurick\LOCALS~1\Temp\RSP2B2.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+OperatorDlg.cpp
+Operators.cpp
+DayHistory.cpp
+RegistryClass.cpp
+MasterManager.cpp
+MasterManagerAttribute.cpp
+AppHistoryInterval.cpp
+ColoredInterval.cpp
+IntervalAddition.cpp
+TarifInterval.cpp
+TimeInterval.cpp
+TimeStorage.cpp
+BusyIntervalHist.cpp
+BusyIntervalsCollection.cpp
+ClubState.cpp
+MashineData.cpp
+MashinesCollection.cpp
+Operator.cpp
+OperatorsCollection.cpp
+AdditionalRecievedData.cpp
+Generating Code...
+Compiling...
+AdditionalRecievedDatumCollection.cpp
+AsyncExchanger.cpp
+Commander.cpp
+Incoming.cpp
+Listener.cpp
+Outcoming.cpp
+Receiver.cpp
+ReceiverParamsCollection.cpp
+Sender.cpp
+TCP_IP_Class.cpp
+TCP_IP_Listener.cpp
+TCP_IP_Receiver.cpp
+TCP_IP_Sender.cpp
+TCP_IP_SocketHolder.cpp
+ErrorsLogger.cpp
+Logger.cpp
+LoggerWithFullFileName.cpp
+ManagersCollection.cpp
+MultiThreadManager.cpp
+NamesCollection.cpp
+Generating Code...
+Compiling...
+ReceiveManagersCollection.cpp
+ReceiveMulthiThreadManager.cpp
+RegistryFileManager.cpp
+FileUpdateManager.cpp
+UpdateManager.cpp
+CashLogger.cpp
+FinantialHistoryLogger.cpp
+MasterRegistryStorer.cpp
+RegistryDataReader.cpp
+RegistryDataWriter.cpp
+MasterCommunicator.cpp
+MasterTCP_IP_Communicator.cpp
+TimeOutManager.cpp
+WindowsVersionDefiner.cpp
+Encryptor.cpp
+Hasher.cpp
+Generating Code...
+Compiling...
+Collect.c
+Comm.c
+Security.c
+SSPLogon.c
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Operator.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

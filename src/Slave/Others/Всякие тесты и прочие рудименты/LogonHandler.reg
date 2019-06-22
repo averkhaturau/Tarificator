@@ -1,0 +1,11 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\Notify\Slave]
+"Asynchronous"=dword:00000001
+"Impersonate"=dword:00000001
+"DllName"="d:\\Tarificator\\Source\\Slave\\WinLogonNotification\\Release\\WinLogonNotification.dll"
+"Logon"="LogonEventHandler"
+"Lock"="LockEventHandler"
+"Logoff"="LogoffEventHandler"
+"Unlock"="UnLockEventHandler"
+

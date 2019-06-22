@@ -1,0 +1,603 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Interface.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_NEW_INTERVAL_DIALOG DIALOGEX 0, 0, 332, 297
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Добавление / редактирование интервалов"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Машина:",IDC_STATIC,20,30,30,8
+    COMBOBOX        IDC_MASHINE_COMBO,85,25,240,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Тарифный план:",IDC_STATIC,20,50,56,8
+    COMBOBOX        IDC_TARIF_COMBO,85,45,240,30,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Интервал",IDC_STATIC,5,125,320,125
+    GROUPBOX        "С ",IDC_STATIC,10,135,310,55
+    CONTROL         "Текущего",IDC_FROM_TIME_CURRENT_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,30,145,49,10
+    CONTROL         "Как только закончит",IDC_FROM_TIME_AS_SOON_AS_RADIO,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,30,160,87,10
+    CONTROL         "Время: ",IDC_FROM_TIME_TIME_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,30,175,42,10
+    GROUPBOX        "Сколько ",IDC_STATIC,10,190,310,55
+    CONTROL         "Денег",IDC_LENGTH_MONEY_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,30,200,37,10
+    CONTROL         "Времени",IDC_LENGTH_TIME_RADIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,30,215,46,10
+    DEFPUSHBUTTON   "OK",IDOK,120,280,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,180,280,50,14
+    LTEXT           "Имя клиента:",IDC_STATIC,20,90,47,8
+    EDITTEXT        IDC_CLINETNAME_EDIT,85,85,240,14,ES_AUTOHSCROLL
+    LTEXT           "Действие:",IDC_STATIC,20,10,36,8
+    COMBOBOX        IDC_ACTION_COMBO,85,5,240,30,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Интервал:",IDC_STATIC,20,70,36,8
+    COMBOBOX        IDC_INTERVAL_CHOICE_COMBO,85,65,240,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Закончить прямо сейчас (вернуть деньги)",
+                    IDC_STOP_RIGHT_NOW_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,100,230,158,10
+    LTEXT           "Итого: ",IDC_STATIC,10,255,30,8
+    LTEXT           "",IDC_TOTAL_STATIC,40,255,285,8
+    LTEXT           "",IDC_ADDITIONAL_TOTAL_STATIC,40,265,285,8
+    LTEXT           "",IDC_OLD_OPERATOR_STATIC,20,110,305,8
+END
+
+IDD_PSWRD_DIALOG DIALOGEX 0, 0, 227, 79
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Введите пароль"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,109,58,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,170,58,50,14
+    LTEXT           "Оператор ",IDC_STATIC,23,14,35,11
+    LTEXT           "Пароль",IDC_STATIC,23,36,35,11
+    COMBOBOX        IDC_OPERATOR_COMBO,68,13,146,30,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_PSWRD_EDIT,68,34,146,14,ES_PASSWORD | ES_AUTOHSCROLL
+    CONTROL         "Log on operator",IDC_LOGON_CHECK,"Button",
+                    BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,23,57,66,
+                    10
+END
+
+IDD_CLIENT_PAYBACK_DIALOG DIALOG DISCARDABLE  0, 0, 220, 124
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Рассчет с клиентом"
+FONT 12, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,70,110,35,10,WS_DISABLED
+    PUSHBUTTON      "Cancel",IDCANCEL,120,110,35,10
+    LTEXT           "Интервал стоил:",IDC_STATIC,10,10,105,8
+    LTEXT           "Новая стоимость интервала:",IDC_STATIC,10,25,105,8
+    RTEXT           "",IDC_OLD_PRICE_STATIC,130,10,70,8
+    RTEXT           "",IDC_NEW_PRICE_STATIC,130,25,70,8
+    LTEXT           "Взять с клиента:",IDC_STATIC,10,40,105,8
+    RTEXT           "",IDC_SUM_STATIC,130,40,70,8
+    LTEXT           "Клиент внес:",IDC_CLIENT_MONEY_STATIC,10,55,105,8
+    LTEXT           "Выдать сдачи:",IDC_STATIC,10,70,105,8
+    RTEXT           "",IDC_CHANGE_STATIC,130,70,70,8
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 318, 105
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Тарификатор 1.0.2.\n\nПрограмма для автоматизации управления и учёта выручки в компьютерных клубах и интернет-кафе",
+                    IDC_STATIC,127,7,184,41,SS_NOPREFIX
+    LTEXT           "Программа разрабатывалась в 2001-2003 годах Верхотуровым А.Е. и Дубовиком А.Д. при поддержке клуба ""Орион"" (Minsk)",
+                    IDC_STATIC,126,50,185,28
+    DEFPUSHBUTTON   "OK",IDOK,45,84,50,14,WS_GROUP
+    CONTROL         142,IDC_STATIC,"Static",SS_BITMAP,7,7,139,54,
+                    WS_EX_TRANSPARENT
+END
+
+IDD_CLIENT_EXCHANGE_DIALOG DIALOG DISCARDABLE  0, 0, 186, 64
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Смена клиента"
+FONT 12, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,45,50,35,9
+    PUSHBUTTON      "Cancel",IDCANCEL,95,50,35,9,WS_DISABLED
+    LTEXT           "",IDC_OLD_CLIENT_STATIC,10,10,170,8
+    LTEXT           "",IDC_NEW_CLIENT_STATIC,10,30,170,8
+END
+
+IDD_TAKE_OFF_DIALOG DIALOG DISCARDABLE  0, 0, 208, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Тарификатор - Снятие кассы"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,24,74,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,151,74,50,14
+    LTEXT           "Отладка 1:",IDC_STATIC,7,7,88,8
+    LTEXT           "Отладка 2:",IDC_STATIC,113,7,88,8
+    LTEXT           "",IDC_STATIC_CL1,7,22,88,13
+    LTEXT           "",IDC_STATIC_CL2,113,22,88,13
+END
+
+IDD_SHUTDOWN_DIALOG DIALOGEX 0, 0, 307, 148
+STYLE DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Выключение машин"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Halt",ID_BUTTON_SHUTDOWN,249,7,50,14
+    DEFPUSHBUTTON   "Cancel",IDCANCEL,249,126,50,14
+    LTEXT           "Выбраны следующие машины:",IDC_STATIC_MASHINES,28,18,
+                    195,115
+    PUSHBUTTON      "Reboot",IDC_BUTTON_REBOOT,249,24,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_NEW_INTERVAL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 325
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 290
+    END
+
+    IDD_PSWRD_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 220
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 72
+    END
+
+    IDD_CLIENT_PAYBACK_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 213
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 311
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_CLIENT_EXCHANGE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 57
+    END
+
+    IDD_TAKE_OFF_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_SHUTDOWN_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 299
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 140
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_NEW_INTERVAL_DIALOG DLGINIT
+BEGIN
+    IDC_ACTION_COMBO, 0x403, 23, 0
+0xeed1, 0xe4e7, 0xf2e0, 0x20fc, 0xeeed, 0xfbe2, 0x20e9, 0xede8, 0xe5f2, 
+0xe2f0, 0xebe0, "\000" 
+    IDC_ACTION_COMBO, 0x403, 38, 0
+0xf2ce, 0xe5f0, 0xe0e4, 0xf2ea, 0xf0e8, 0xe2ee, 0xf2e0, 0x20fc, 0xf3f1, 
+0xe5f9, 0xf2f1, 0xf3e2, 0xf9fe, 0xe9e8, 0xe820, 0xf2ed, 0xf0e5, 0xe0e2, 
+0x00eb, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Interface.ico"
+IDR_INTERFTYPE          ICON    DISCARDABLE     "res\\InterfaceDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Interface...",         ID_APP_ABOUT
+    END
+END
+
+IDR_INTERFTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "Operator"
+    BEGIN
+        MENUITEM "Зайти  (Log on)",             ID_LOGGED_OFF
+    END
+    POPUP "Обслуживание клиентов"
+    BEGIN
+        MENUITEM "Создание/редактирование интервалов\tAlt+n", 
+                                                ID_INTERVALS_NEW
+        MENUITEM "Отладка",                     ID_MENU_TAKEOFF
+        MENUITEM "Выключить/перезагрузить машины", ID_SHUTDOWN_HOSTS, GRAYED
+    END
+    POPUP "Вид"
+    BEGIN
+        MENUITEM "Показать занятость",          ID_VIEW_SHOW_BUSY_VIEW
+        MENUITEM "Занятость",                   ID_VIEW_SHOW_BUSY_VIEWLX
+        MENUITEM "Показать выручку",            ID_VIEW_SHOW_CASH_VIEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Строка состояния",           ID_VIEW_STATUS_BAR
+    END
+    POPUP "Окна"
+    BEGIN
+        MENUITEM "Каскад",                      ID_WINDOW_CASCADE
+        MENUITEM "Развернуть",                  ID_WINDOW_TILE_HORZ
+        MENUITEM "Свернуть",                    ID_WINDOW_ARRANGE
+    END
+    POPUP "Помощь"
+    BEGIN
+        MENUITEM "О программе",                 ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ORION_LOGO_BITMAP   BITMAP  DISCARDABLE     "res\\Окончательный вариант.bmp"
+IDB_BMP_MASHINES_CONNECTED BITMAP  DISCARDABLE     "res\\smallico.bmp"
+IDR_MAINTOOLBAR         BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDB_CURSOR_BMP          BITMAP  DISCARDABLE     "RES\\Cursor.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINTOOLBAR TOOLBAR DISCARDABLE  32, 32
+BEGIN
+    BUTTON      ID_INTERVALS_NEW
+    BUTTON      ID_INTERVALS_NEW
+    SEPARATOR
+    BUTTON      ID_SHUTDOWN_HOSTS
+    BUTTON      ID_SHUTDOWN_HOSTS
+    SEPARATOR
+    SEPARATOR
+    BUTTON      ID_LOGGED_OFF
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Тарификатор"
+    IDR_INTERFTYPE          "\nInterf\nInterf\n\n\nInterface.Document\nInterf Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Тарификатор"
+    AFX_IDS_IDLEMESSAGE     "Готово"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Создать новый документ\nНовый"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Показывает информацию о программе, версии и разработчиках\nAbout"
+    ID_APP_EXIT             "Выход из программы\nВыход"
+    IDS_LOGOFF_MENUITEMSTR  "Выйти (Log off)"
+    IDS_LOGON_MENUITEMSTR   "Зайти  (Log on)"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Сворачивает окошки"
+    ID_WINDOW_CASCADE       "Делает окошки каскадом"
+    ID_WINDOW_TILE_HORZ     "Разворачивает окошки"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Разделить окошко по панелям"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_STATUS_BAR      "Показывает / скрывает строку состояния"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Изменение размера окна"
+    AFX_IDS_SCMOVE          "Изменение положения окна"
+    AFX_IDS_SCMINIMIZE      "Свертывание окна"
+    AFX_IDS_SCMAXIMIZE      "Раскрывает окно на весь десктоп"
+    AFX_IDS_SCNEXTWINDOW    "Переключение на окно следующего документа"
+    AFX_IDS_SCPREVWINDOW    "Переключение на окно предыдущего документа"
+    AFX_IDS_SCCLOSE         "Закрытие текущего окна"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Возобновление размеров окна"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Делает окошко активным"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_GETRANDOMINTERVALS "Just A test"
+    ID_INTERVALS_NEW        "Вызывает диалог создания / редактирования интервалов"
+    ID_MENU_TAKEOFF         "Снятие кассы тарификатора"
+    ID_VIEW_SHOW_BUSY_VIEW  "Показывает окно с занятостью машин"
+    ID_VIEW_SHOW_CASH_VIEW  "Показывает окно с выручкой"
+    ID_SHUTDOWN_HOSTS       "Выключить / перезагрузить машины"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_LOGGED_OFF           "Логон / Логофф"
+END
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_INTERVALS_NEW,       VIRTKEY, ALT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041904b0"
+        BEGIN
+            VALUE "Comments", "Специально для клуба ""Орион""\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Interface MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Interface\0"
+            VALUE "LegalCopyright", "Copyright (C) 2002\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Interface.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Тарификатор\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x419, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Interface.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

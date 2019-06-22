@@ -1,0 +1,43 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Slave Service\Exchange]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Slave Service\Parameters]
+"LogFileName"="D:\\Documents\\Shurick\\Slave Logs\\ErrorLog.txt"
+"PortToListen"=dword:0000473e
+"MasterPort"=dword:0000473f
+"TimerPeriod"=dword:000003e8
+"ConnectTimeOut"=dword:00002710
+"ReceiveTimeOut"=dword:00002710
+"NoMasterAnswerPeriod"=dword:000493e0
+"CheckStatePeriod"=dword:0000ea60
+"ConnectRetriesPeriod"=dword:00007530
+"OpenConnectionTimeOut"=dword:00007530
+"RunnerName"="c:\\Program Files\\Slave\\Runner.exe"
+"LateWarn"=dword:0000ea60
+"EarlyWarn"=dword:000493e0
+"MasterAddress"=dword:c0a80080
+"EarlyWarnName"="c:\\Program Files\\Slave\\5 minutes remaining.wav"
+"LateWarnName"="c:\\Program Files\\Slave\\1 minute remaining.wav"
+"FinishedName"="c:\\Program Files\\Slave\\Time is over.wav"
+"Icons_Games"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Games\\Usual\\"
+"Icons_Internet"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Internet\\Usual\\"
+"Icons_Office"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Office\\Usual\\"
+"Icons_Films"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Films\\Usual\\"
+"OnlyOneApplication_Films"=dword:00000001
+"OnlyOneApplication_Internet"=dword:00000000
+"OnlyOneApplication_Office"=dword:00000000
+"OnlyOneApplication_Games"=dword:00000001
+"PreliminaryIcons_Games"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Games\\Preliminary\\"
+"PreliminaryIcons_Internet"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Internet\\Preliminary\\"
+"PreliminaryIcons_Films"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Films\\Preliminary\\"
+"PreliminaryIcons_Office"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Office\\Preliminary\\"
+"SpecialIcons_Games"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Games\\Special\\"
+"SpecialIcons_Films"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Films\\Special"
+"SpecialIcons_Internet"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Internet\\Special\\"
+"SpecialIcons_Office"="c:\\Documents and Settings\\Icons\\hjveri2uy3^kjh),knm#uijkbb1.jads0(7^%\\kjh34298&^,k2hj143$#&^23c'fy45;5gv43\\OjhbmjYuih&(Oilkjpo.w'er\\Office\\Special\\"
+"DesktopLogFileName"="D:\\Documents\\Shurick\\Slave Logs\\DesktopErrorLog.txt"
+"DesktopExecutablePath"="c:\\Program Files\\Slave\\Desktop.exe"
+"SuperUserNamesNumber"=dword:00000002
+"SuperUserName00"="Shurick"
+"SuperUserName01"="Admin"
