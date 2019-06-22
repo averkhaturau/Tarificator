@@ -1,6 +1,6 @@
 # Tarificator
 
-This is my first C++ project strated at middle 90s...
+This is my first C++ project strated at late 90s...
 
 The purpose is to control payments and access of compiter clubs and internet cafe's with flexible tarification plans.
 
